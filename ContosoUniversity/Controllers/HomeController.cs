@@ -17,7 +17,10 @@ namespace ContosoUniversity.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
+            ViewData["Message"] = "Your application description page by ASP.net";
+            ViewData["FirstName"] = "James";
+            ViewData["LastName"] = "Martin";
+            ViewData["EmailAddress"] = "jmsnmrtn@uw.edu";
 
             return View();
         }
